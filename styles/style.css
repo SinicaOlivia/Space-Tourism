@@ -1,0 +1,166 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+} 
+
+ .content-container {
+  width: 1447px;
+  height: 899px;
+  background-image: url("../assets/home/background-home-desktop.jpg");
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.app-logo {
+  width: 48px;
+  height: 48px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.rectangle {
+  width: 473px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.25;
+}
+
+.line {
+  width: 30px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.25;
+  margin-right: 40px; 
+} 
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 830px;
+  height: 96px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  padding-right: 167px;
+}
+
+.text {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  cursor: pointer;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:rgba(255, 255, 255, 0.6);
+}
+
+.span-number {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #ffffff;
+  padding: 0 14px;
+}
+
+.span-number:hover{
+  color:rgba(255, 255, 255, 0.6);
+
+}
+
+.page {
+  margin: 251px 165px 131px 165px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.part-one {
+  height: 100%;
+  width: 100%;
+  max-width: 500px;
+}
+
+.part-two {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.text1 {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 4.725px;
+  line-height: 34px;
+  color: #D0D6F9;
+}
+
+.text2 {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  color: #ffffff;
+  line-height: 172px;
+  margin: 0 auto;
+}
+
+.text3 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+}
+
+.circle-button {
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text-circle {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: #0B0D17; 
+  text-decoration: none;
+}
+
+.text-circle:hover {
+  color:cadetblue;
+}
+
+.circle-button:hover {
+  mix-blend-mode: normal;
+  box-shadow: 0px 0px 0px 70px rgba(145, 145, 145, 0.2);
+  border: 1px solid black ;
+}
+
